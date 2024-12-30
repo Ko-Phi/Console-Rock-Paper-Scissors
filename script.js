@@ -10,6 +10,7 @@ buttons.addEventListener("click", (event) => {
 
 display = document.querySelector(".display");
 function printToDisplay(message) {
+  console.log(message);
   const newLog = document.createElement("p");
   newLog.textContent = message;
   display.appendChild(newLog);
